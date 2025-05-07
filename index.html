@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Roots – Organic Grocery Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-beige text-green-900">
+
+  <!-- Navbar -->
+  <header class="bg-green-100 p-4 shadow-md">
+    <h1 class="text-3xl font-semibold text-center">Fresh Roots</h1>
+    <p class="text-center text-green-700">Fresh, Organic Food for a Healthier Community</p>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="p-6 text-center">
+    <img src="https://source.unsplash.com/800x400/?organic,vegetables" alt="Organic farm" class="mx-auto rounded-xl">
+    <div class="mt-4">
+      <a href="#products" class="bg-green-600 text-white py-2 px-4 rounded-md mr-2">Featured Seasonal Products</a>
+      <a href="#contact" class="border border-green-600 py-2 px-4 rounded-md text-green-600">Inquire for Home Delivery</a>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="p-6 bg-green-50">
+    <h2 class="text-2xl font-semibold mb-2">About Us</h2>
+    <p>Fresh Roots is a locally-owned grocery store in Zundal, Gandhinagar specializing in organic fruits, vegetables, grains, and eco-friendly household products. We source directly from local farmers to promote healthy, chemical-free living.</p>
+  </section>
+
+  <!-- Products -->
+  <section id="products" class="p-6">
+    <h2 class="text-2xl font-semibold mb-4">Products</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://source.unsplash.com/200x200/?organic,apples" alt="Apples" class="rounded mb-2">
+        <h3 class="font-semibold">Organic Apples</h3>
+        <p>Crisp, juicy, and pesticide-free apples directly from farms.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://source.unsplash.com/200x200/?organic,carrots" alt="Carrots" class="rounded mb-2">
+        <h3 class="font-semibold">Fresh Carrots</h3>
+        <p>Sweet and crunchy carrots grown without chemicals.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <img src="https://source.unsplash.com/200x200/?organic,rice" alt="Rice" class="rounded mb-2">
+        <h3 class="font-semibold">Organic Rice</h3>
+        <p>Wholesome, locally grown rice with no additives.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="p-6 bg-green-50">
+    <h2 class="text-2xl font-semibold mb-4">Testimonials</h2>
+    <blockquote class="italic">“Fresh Roots has changed the way my family eats. Everything is so fresh!” — Rina P.</blockquote>
+    <blockquote class="italic mt-2">“I love supporting local farmers and getting quality produce.” — Arjun M.</blockquote>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="p-6">
+    <h2 class="text-2xl font-semibold mb-4">Contact Us</h2>
+    <form action="https://formsubmit.co/your-email@example.com" method="POST" class="grid gap-4 max-w-lg mx-auto">
+      <input type="text" name="name" placeholder="Your Name" class="p-2 border border-green-300 rounded" required>
+      <input type="email" name="email" placeholder="Your Email" class="p-2 border border-green-300 rounded" required>
+      <textarea name="message" rows="4" placeholder="Your Message" class="p-2 border border-green-300 rounded" required></textarea>
+      <button type="submit" class="bg-green-600 text-white py-2 px-4 rounded">Send</button>
+    </form>
+    <div class="mt-6 text-center">
+      <p>Fresh Roots, Zundal, Gandhinagar, Gujarat</p>
+      <iframe class="mt-2 mx-auto" src="https://www.google.com/maps?q=Zundal,+Gandhinagar&output=embed" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center p-4 text-green-700 bg-green-100 mt-6">
+    &copy; 2025 Fresh Roots. All rights reserved.
+  </footer>
+</body>
+</html>
